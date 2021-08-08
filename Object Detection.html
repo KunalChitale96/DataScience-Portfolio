@@ -1,7 +1,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Showroom</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -60,7 +59,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-5">
-            <div style="margin-top:2cm; margin-left: 2cm;">
+            <div style="margin-top:3cm; margin-left: 2cm;">
                 
                     <img src="https://github.com/KunalChitale96/DataScience-Portfolio/blob/main/Object%20Detection%20model.JPG?raw=true"
                             class="img-fluid" alt="photo"> 
@@ -86,17 +85,18 @@
           <div class="col-md-5 ">
             <div style="margin-top: 3cm;">
 		    <h5> Information about this project</h5>
-		    <p> This is a project about predicting height vs weight using linear regression model.<br> In this,as we can see the figure on the left shows the predicted values 
-			    and plotted values form a perfect slanting line which is ideal for regression model. Although in real life it is not possible to see that all the points<br> ie 
-			    Height and Weight fall on the line itself, it happens most of the time that there are some points above the line and very few fall below the line.<br>
-			    We can use cost function to find errors and determine best possible line which encompasses all the values that are plotted on the graph, but as this is my 
-			    first project it is an ametuer attempt to find out more about linear regression model and how it can be used to predict values in the future. </p>
+		    <p> This is a project about identifying various objects using nueral networks.
+		    I have used open CV to load already developed model called 'Mobile network SSD v3. The model used is already trained and can identify approximately 80 objects 
+		    for example trucks, bikes, cars, people, trash can etc... 
+	            Follow this link to view the whole video <href = "https://www.linkedin.com/posts/kunal-chitale-122aa3189_objectdetection-opencv-anaconda-activity-6818916638637752320-_fNi">
+			    </p>
 		    <list>
-		    <h5>Key points</h5>
-			    <ul><li>As height increases so does the weight.</li>
-				    <li>Predicted values are shown along the blue line.</li>
-				    <li>Used matlab to plot graphs and sklearn for machine learning part.</li>
-               <!-- <form>
+		    <h5>Process followed </h5>
+			    <ul><li> Used open CV and anaconda to load the model </li>
+				    <li>Loaded the video for the algorithm to analyze.</li>
+				    <li>Set appropriate frame rate to analyze the video. The model looks the video frame by frame and identifys the object in the image.</li>
+			    </ul>
+				    <!-- <form>
                     <h5>Booking form</h5>
                     <div class="form-group">
                         <label for="Customerid">Customer Id</label>
